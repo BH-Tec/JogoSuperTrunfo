@@ -1,0 +1,46 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon">
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- Font Awesone -->
+        <script src="https://kit.fontawesome.com/c3ef53a0a4.js" crossorigin="anonymous"></script>
+        <!-- JavaScript -->
+        <script src="./js/script.js"></script>
+        <title>
+            Bruno Dorea - Super Trunfo - Imersão Dev - Aulas 07 e 08
+        </title>
+    </head>
+    
+    <body>
+        <div class="container">
+            <img src="./assets/logo.png" class="page-logo"
+            alt="">
+            <h1 class="page-title">Super Trunfo</h1>
+            <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+            <form id="form">
+                <h2>Escolha o seu atributo</h2>
+                <div class="wrapper">
+                    <div>
+                        <div id="carta-jogador"><img 
+                                src="./assets/card-super-trunfo-transparent-ajustado.png"
+                                style=" width: inherit; height: inherit; position: absolute;">
+                            <h3></h3>
+                        </div>
+                    </div>
+                    <div>
+                        <div id="carta-maquina" class="carta"><img
+                            src="./assets/card-super-trunfo-transparent-ajustado.png"
+                                style=" width: inherit; height: inherit; position: absolute;"></div>
+                    </div>
+                </div>
+                <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+                <div id="resultado"></div>
+            </form>
+        </div>
+    </body>
+</htmL>

@@ -9,6 +9,10 @@
   <a href="#-license">📝 License</a>
 </p>
 
+## 💻 Projeto
+
+Projeto de criação do jogo Super Trunfo utilizando HTML, CSS e JavaScript do evento "Imersão Dev" da Alura.
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -16,10 +20,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
-
-## 💻 Projeto
-
-Projeto de criação do jogo Super Trunfo utilizando HTML, CSS e JavaScript do evento "Imersão Dev" da Alura.
 
 ## 📝 License
 
